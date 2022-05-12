@@ -1,0 +1,66 @@
+/* *{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    height: 530px;
+    width: 330px;
+    border: 2px solid black;
+    margin: auto;
+    margin-top: 46px;
+    background-color: rgba(7, 247, 247, 0.397);
+    
+} */
+.input{
+    width: 250px;
+    height: 70px;
+    margin: 35px;
+    font-size: 46px;
+    text-align: center;
+}
+.btn{
+    height: 70px;
+    width: 70px;
+    margin: 13px;
+    
+}
+/* .btn1{
+    font-size: 40px;
+    padding: 10px;
+    margin-left: 25px;
+} */
+/* .calBtn{
+    height: 46px;
+}
+.calBtn1{
+    padding: 5px;
+    margin-left: 25px;
+    font-size: 40px;
+    padding-left: 13px;
+    padding-right: 13px;
+}
+.calBtn2{
+    padding: 5px;
+    margin-left: 15px;
+    font-size: 40px;
+    padding-left: 18px;
+    padding-right: 18px;
+}
+.calBtn3{
+    padding: 5px;
+    padding-top: 5px;
+    width: 5px;
+    margin-left: 15px;
+    font-size: 38px;
+    padding-left: 20px;
+    padding-right: 30px;
+    text-align: center;
+}
+.calBtn4{
+    padding: 5px;
+    margin-left: 15px;
+    font-size: 40px;
+    padding-left: 18px;
+    padding-right: 18px;
+    text-align: center;
+} */
