@@ -1,48 +1,15 @@
-function add(){
-    let input1=document.getElementById("input1");
-    let input2=document.getElementById("input2");
-
-    num1=parseFloat(input1.value);
-    num2=parseFloat(input2.value);
-
-    sum=num1+num2;
-
-    let result=document.getElementById("result")
-    result.innerHTML=sum;
+// This function clear all the values
+function clearScreen(){
+    document.getElementById("input1").value="";
 }
-function sub(){
-    let input1=document.getElementById("input1");
-    let input2=document.getElementById("input2");
 
-    num1=parseFloat(input1.value);
-    num2=parseFloat(input2.value);
-
-    sum=num1-num2;
-
-    let result=document.getElementById("result")
-    result.innerHTML=sum;
+// this function display values
+function display(value){
+    document.getElementById("input1").value+= value;
 }
-function mult(){
-    let input1=document.getElementById("input1");
-    let input2=document.getElementById("input2");
-
-    num1=parseFloat(input1.value);
-    num2=parseFloat(input2.value);
-
-    sum=num1*num2;
-
-    let result=document.getElementById("result")
-    result.innerHTML=sum;
-}
-function devide(){
-    let input1=document.getElementById("input1");
-    let input2=document.getElementById("input2");
-
-    num1=parseFloat(input1.value);
-    num2=parseFloat(input2.value);
-
-    sum=num1/num2;
-
-    let result=document.getElementById("result")
-    result.innerHTML=sum;
+// This function evaluates the expression and return result
+function cacl(){
+    var p=document.getElementById("input1").value;
+    var q=eval(p);
+    document.getElementById("input1").value = q;
 }
